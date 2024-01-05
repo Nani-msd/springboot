@@ -26,6 +26,11 @@ public class NotifController {
 	@Autowired
 	NotifServ notifserv;
 	
+	@GetMapping("/get")
+	public String rand() {
+		return "nani";
+	}
+	
 	@PostMapping("/add")
 	public Notifications putNotif(@RequestBody Notifications notif) {
 		Notifications v=notifserv.putNotif(notif);

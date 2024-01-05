@@ -26,12 +26,4 @@ public class Notifications extends RepresentationModel<Notifications>{
 	public void setNotifname(String notifname) {
 		this.notifname = notifname;
 	}
-	
-//	git init
-//	git add README.md
-//	git commit -m "first commit"
-//	git branch -M main
-//	git remote add origin https://github.com/Nani-msd/springboot.git
-//	git push -u origin main
-
 }
